@@ -1,4 +1,4 @@
-package pagesPOM;
+package craterPagesPOM;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -6,11 +6,11 @@ import org.openqa.selenium.support.PageFactory;
 
 import utils.Driver;
 
-public class CraterDashboardPOM {
+public class DashboardPOM {
 	
 	
 		
-		public CraterDashboardPOM() {
+		public DashboardPOM() {
 			PageFactory.initElements(Driver.getDriver(), this);
 		}
 		
