@@ -1,4 +1,4 @@
-package pagesPOM;
+package craterPagesPOM;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -6,16 +6,16 @@ import org.openqa.selenium.support.PageFactory;
 
 import utils.Driver;
 
-public class CraterLoginPOM {
+public class LoginPOM {
 	
-	public CraterLoginPOM() {
+	public LoginPOM() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 	
-	@FindBy (name = "email")
+	@FindBy (xpath = "//div[@name='email']/input")
 	public WebElement userEmailField;
 	
-	@FindBy (name = "password")
+	@FindBy (xpath = "//div[@name='password']/input")
 	public WebElement passwordField;
 	
 	@FindBy (linkText = "Forgot Password?")
@@ -35,6 +35,10 @@ public class CraterLoginPOM {
 	
 	@FindBy (xpath = "//p[contains(text(), 'These credentials do not match our records.')]")
 	public WebElement invalidUserErrorMessage;
+	
+	@FindBy (xpath = "//span[text()='Field is required']")
+	public WebElement fieldRequiredMsg;
+
 
 
 }
