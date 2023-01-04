@@ -1,5 +1,7 @@
 package utils;
 
+import java.util.Random;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
@@ -13,7 +15,7 @@ public class BrowserUtils {
 	Alert alert;
 	WebDriverWait letswait;
 	Select letsSelect;
-	Actions act;
+	Actions action;
 
 	// this function waits 5 seconds for an alert to be present on the UI
 	public void waitUntilAlertIsPresent() {
@@ -72,14 +74,19 @@ public class BrowserUtils {
 	// This function accepts a web element and moves the mouse cursor to that element. 
 	// hover over to an element
 	public void moveToElement(WebElement element) {
-		act = new Actions(Driver.getDriver());
-		act.moveToElement(element).perform();
+		action = new Actions(Driver.getDriver());
+		action.moveToElement(element).perform();
+	}
+	
+	public void sendKeysWithActionsClass(WebElement element, String text){
+		action = new Actions(Driver.getDriver());
+		action.sendKeys(element, text).build().perform();
 	}
 	
 	// drag the source element to the target element
 	public void dragAndDrop(WebElement sourceElement, WebElement targetElement) {
-		act = new Actions(Driver.getDriver());
-		act.dragAndDrop(sourceElement, targetElement).perform();
+		action = new Actions(Driver.getDriver());
+		action.dragAndDrop(sourceElement, targetElement).perform();
 	}
 
 	// This method is for deleting the pre-populated value of an input field with
@@ -104,4 +111,11 @@ public class BrowserUtils {
 		element.sendKeys(Keys.chord(Keys.COMMAND), "a");
 		element.sendKeys(Keys.DELETE);
 	}
+	
+	// random 3 digit number generator
+		public int randomNumber() {
+			Random rand = new Random();
+			int randomNum = rand.nextInt((999 - 100) + 1) + 100;
+			return randomNum;
+		}
 }

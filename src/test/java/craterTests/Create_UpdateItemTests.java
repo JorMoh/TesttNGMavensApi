@@ -2,7 +2,7 @@ package craterTests;
 
 import org.testng.annotations.Test;
 
-import craterPagesPOM.HomePOM;
+import craterPagesPOM.CommonPOM;
 import craterPagesPOM.ItemsPOM;
 import craterPagesPOM.LoginPOM;
 import utils.BrowserUtils;
@@ -72,14 +72,14 @@ public class Create_UpdateItemTests {
   
   
   @BeforeMethod
-  public void setup() throws InterruptedException {
-	  HomePOM home = new HomePOM();
+  public void setup() {
+	  CommonPOM common = new CommonPOM();
 	  LoginPOM login = new LoginPOM();
 	  Driver.getDriver().manage().window().maximize();
 	  Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	  Driver.getDriver().get(dataReader.getData("craterUrl"));
 	  ReusableMethods.craterLogin();
-	  home.itemsTab.click();
+	  common.itemsTab.click();
   }
   
   

@@ -1,110 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-25T17:37:09 EST" name="Default suite" finished-at="2022-12-25T17:39:33 EST" duration-ms="143541">
+  <suite started-at="2023-01-03T20:03:57 EST" name="Default suite" finished-at="2023-01-03T20:04:37 EST" duration-ms="39476">
     <groups>
     </groups>
-    <test started-at="2022-12-25T17:37:09 EST" name="Default test" finished-at="2022-12-25T17:39:33 EST" duration-ms="143541">
-      <class name="craterTests.Create_UpdateItemTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2022-12-25T17:37:09 EST" name="setup" finished-at="2022-12-25T17:38:58 EST" duration-ms="108555" status="PASS">
+    <test started-at="2023-01-03T20:03:57 EST" name="Default test" finished-at="2023-01-03T20:04:37 EST" duration-ms="39476">
+      <class name="craterTests.UI_DBvalidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.UI_DBvalidation@41e36e46]" started-at="2023-01-03T20:03:57 EST" name="setup" finished-at="2023-01-03T20:04:14 EST" duration-ms="16680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCreating()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2022-12-25T17:38:58 EST" name="verifyCreating" finished-at="2022-12-25T17:39:02 EST" duration-ms="3893" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[Element <button class="inline-flex whitespace-nowrap items-center border font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 px-4 py-2 text-sm leading-5 rounded-md border-transparent shadow-sm text-white bg-primary-600 hover:bg-primary-700 focus:ring-primary-500" type="submit"> is not clickable at point (384,632) because another element <li class="flex items-center justify-start box-border text-left cursor-pointer text-sm leading-snug py-2 px-3"> obscures it
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MOHAMMAD', ip: '192.168.0.237', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 9352, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8c536108-d706-484a-bbdc-2ba2975edf04]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <button class="inline-flex whitespace-nowrap items-center border font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 px-4 py-2 text-sm leading-5 rounded-md border-transparent shadow-sm text-white bg-primary-600 hover:bg-primary-700 focus:ring-primary-500" type="submit"> is not clickable at point (384,632) because another element <li class="flex items-center justify-start box-border text-left cursor-pointer text-sm leading-snug py-2 px-3"> obscures it
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MOHAMMAD', ip: '192.168.0.237', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 9352, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8c536108-d706-484a-bbdc-2ba2975edf04
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-at craterTests.Create_UpdateItemTests.verifyCreating(Create_UpdateItemTests.java:41)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCreating -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2022-12-25T17:39:02 EST" name="afterTest" finished-at="2022-12-25T17:39:06 EST" duration-ms="3822" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2022-12-25T17:39:06 EST" name="setup" finished-at="2022-12-25T17:39:23 EST" duration-ms="17593" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyUpdating()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2022-12-25T17:39:23 EST" name="verifyUpdating" finished-at="2022-12-25T17:39:30 EST" duration-ms="6558" status="FAIL">
+        <test-method signature="validate2()[pri:0, instance:craterTests.UI_DBvalidation@41e36e46]" started-at="2023-01-03T20:04:14 EST" name="validate2" finished-at="2023-01-03T20:04:35 EST" duration-ms="20764" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: //a[text()='Book']
+              <![CDATA[Unable to locate element: //a[text()='cleaning products101']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MOHAMMAD', ip: '192.168.0.237', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 13236, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 703b6a2e-1f65-4337-8c3e-4ce6ffb86593
-*** Element info: {Using=xpath, value=//a[text()='Book']}]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 1124, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6f16e9fd-9404-4c60-a1fe-bdc988653a8a
+*** Element info: {Using=xpath, value=//a[text()='cleaning products101']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[text()='Book']
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[text()='cleaning products101']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MOHAMMAD', ip: '192.168.0.237', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 13236, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 703b6a2e-1f65-4337-8c3e-4ce6ffb86593
-*** Element info: {Using=xpath, value=//a[text()='Book']}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 1124, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6f16e9fd-9404-4c60-a1fe-bdc988653a8a
+*** Element info: {Using=xpath, value=//a[text()='cleaning products101']}
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -118,10 +45,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-at craterTests.Create_UpdateItemTests.verifyUpdating(Create_UpdateItemTests.java:57)
+at craterTests.UI_DBvalidation.validate2(UI_DBvalidation.java:111)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -153,12 +77,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUpdating -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2022-12-25T17:39:30 EST" name="afterTest" finished-at="2022-12-25T17:39:33 EST" duration-ms="2923" status="PASS">
+        </test-method> <!-- validate2 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.UI_DBvalidation@41e36e46]" started-at="2023-01-03T20:04:35 EST" name="afterTest" finished-at="2023-01-03T20:04:37 EST" duration-ms="1983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- craterTests.Create_UpdateItemTests -->
+      </class> <!-- craterTests.UI_DBvalidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
