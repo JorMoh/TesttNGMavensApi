@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-03T20:03:57 EST" name="Default suite" finished-at="2023-01-03T20:04:37 EST" duration-ms="39476">
+  <suite started-at="2023-01-03T21:37:13 EST" name="Default suite" finished-at="2023-01-03T21:38:20 EST" duration-ms="66655">
     <groups>
     </groups>
-    <test started-at="2023-01-03T20:03:57 EST" name="Default test" finished-at="2023-01-03T20:04:37 EST" duration-ms="39476">
+    <test started-at="2023-01-03T21:37:13 EST" name="Default test" finished-at="2023-01-03T21:38:20 EST" duration-ms="66655">
       <class name="craterTests.UI_DBvalidation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.UI_DBvalidation@41e36e46]" started-at="2023-01-03T20:03:57 EST" name="setup" finished-at="2023-01-03T20:04:14 EST" duration-ms="16680" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.UI_DBvalidation@1725dc0f]" started-at="2023-01-03T21:37:13 EST" name="setup" finished-at="2023-01-03T21:37:29 EST" duration-ms="15391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate2()[pri:0, instance:craterTests.UI_DBvalidation@41e36e46]" started-at="2023-01-03T20:04:14 EST" name="validate2" finished-at="2023-01-03T20:04:35 EST" duration-ms="20764" status="FAIL">
+        <test-method signature="validate()[pri:0, instance:craterTests.UI_DBvalidation@1725dc0f]" started-at="2023-01-03T21:37:29 EST" name="validate" finished-at="2023-01-03T21:37:40 EST" duration-ms="11385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.UI_DBvalidation@1725dc0f]" started-at="2023-01-03T21:37:40 EST" name="afterTest" finished-at="2023-01-03T21:37:42 EST" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.UI_DBvalidation@1725dc0f]" started-at="2023-01-03T21:37:42 EST" name="setup" finished-at="2023-01-03T21:37:57 EST" duration-ms="14832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate2()[pri:0, instance:craterTests.UI_DBvalidation@1725dc0f]" started-at="2023-01-03T21:37:57 EST" name="validate2" finished-at="2023-01-03T21:38:18 EST" duration-ms="20847" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: //a[text()='cleaning products101']
+              <![CDATA[Unable to locate element: //a[text()='cleaning products420525']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MOHAMMAD', ip: '192.168.0.237', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 1124, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6f16e9fd-9404-4c60-a1fe-bdc988653a8a
-*** Element info: {Using=xpath, value=//a[text()='cleaning products101']}]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 8676, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de2761ae-eb54-4d97-aa8d-7906b2701133
+*** Element info: {Using=xpath, value=//a[text()='cleaning products420525']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[text()='cleaning products101']
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[text()='cleaning products420525']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MOHAMMAD', ip: '192.168.0.237', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 1124, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6f16e9fd-9404-4c60-a1fe-bdc988653a8a
-*** Element info: {Using=xpath, value=//a[text()='cleaning products101']}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 8676, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de2761ae-eb54-4d97-aa8d-7906b2701133
+*** Element info: {Using=xpath, value=//a[text()='cleaning products420525']}
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -78,7 +90,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate2 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.UI_DBvalidation@41e36e46]" started-at="2023-01-03T20:04:35 EST" name="afterTest" finished-at="2023-01-03T20:04:37 EST" duration-ms="1983" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.UI_DBvalidation@1725dc0f]" started-at="2023-01-03T21:38:18 EST" name="afterTest" finished-at="2023-01-03T21:38:20 EST" duration-ms="1807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
