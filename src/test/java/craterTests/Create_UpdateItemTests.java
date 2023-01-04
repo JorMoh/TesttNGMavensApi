@@ -14,12 +14,13 @@ import org.testng.annotations.BeforeMethod;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 
 public class Create_UpdateItemTests {
 	  
-  @Test
+  @Test(priority=2)
   public void verifyCreating() {
 //	  user is able to create an item or service
 //	  user logs in
@@ -45,7 +46,7 @@ public class Create_UpdateItemTests {
   
   
   
-  @Test
+  @Test(priority=1)
   public void verifyUpdating() throws InterruptedException {
 //	  user is able to update an item or service
 //	  Given user is on the login page
@@ -53,7 +54,7 @@ public class Create_UpdateItemTests {
 //	  When selects the item “Books”
 	  BrowserUtils utils = new BrowserUtils();
 	  ItemsPOM items = new ItemsPOM();
-	  items.nextButton.click();
+	  Driver.getDriver().findElement(By.xpath("//a[text()='10']")).click();
 	  items.bookItem.click();
 //	  and user should be on item details page
 	  Assert.assertTrue(items.updateItemBtn.isDisplayed());

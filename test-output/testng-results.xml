@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-03T22:42:24 EST" name="Default suite" finished-at="2023-01-03T22:43:00 EST" duration-ms="35539">
+  <suite started-at="2023-01-04T14:57:06 EST" name="Default suite" finished-at="2023-01-04T14:57:57 EST" duration-ms="50542">
     <groups>
     </groups>
-    <test started-at="2023-01-03T22:42:24 EST" name="Default test" finished-at="2023-01-03T22:43:00 EST" duration-ms="35539">
-      <class name="craterTests.UI_DBvalidation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.UI_DBvalidation@41e36e46]" started-at="2023-01-03T22:42:24 EST" name="setup" finished-at="2023-01-03T22:42:42 EST" duration-ms="17814" status="PASS">
+    <test started-at="2023-01-04T14:57:06 EST" name="Default test" finished-at="2023-01-04T14:57:57 EST" duration-ms="50542">
+      <class name="craterTests.Create_UpdateItemTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2023-01-04T14:57:06 EST" name="setup" finished-at="2023-01-04T14:57:21 EST" duration-ms="15416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate2()[pri:0, instance:craterTests.UI_DBvalidation@41e36e46]" started-at="2023-01-03T22:42:42 EST" name="validate2" finished-at="2023-01-03T22:42:59 EST" duration-ms="16351" status="PASS">
+        <test-method signature="verifyUpdating()[pri:1, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2023-01-04T14:57:21 EST" name="verifyUpdating" finished-at="2023-01-04T14:57:30 EST" duration-ms="8923" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate2 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.UI_DBvalidation@41e36e46]" started-at="2023-01-03T22:42:59 EST" name="afterTest" finished-at="2023-01-03T22:43:00 EST" duration-ms="1328" status="PASS">
+        </test-method> <!-- verifyUpdating -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2023-01-04T14:57:30 EST" name="afterTest" finished-at="2023-01-04T14:57:33 EST" duration-ms="2694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- craterTests.UI_DBvalidation -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2023-01-04T14:57:33 EST" name="setup" finished-at="2023-01-04T14:57:47 EST" duration-ms="14248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCreating()[pri:2, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2023-01-04T14:57:47 EST" name="verifyCreating" finished-at="2023-01-04T14:57:53 EST" duration-ms="5597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreating -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2023-01-04T14:57:53 EST" name="afterTest" finished-at="2023-01-04T14:57:57 EST" duration-ms="3614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- craterTests.Create_UpdateItemTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
