@@ -6,9 +6,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import utils.Driver;
 
-public class HomePOM {
+public class CommonPOM {
 
-	public HomePOM() {
+	public CommonPOM() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 	

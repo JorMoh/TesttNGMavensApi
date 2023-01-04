@@ -28,10 +28,10 @@ public class DButils {
 			statement = connection.createStatement();
 			resultset = statement.executeQuery(query);
 			rsmd = resultset.getMetaData();
-			resultset.next();
+			if(resultset.next()==true) {
 		    for (int i = 1; i <= rsmd.getColumnCount(); i++) {
 		    	list.add(resultset.getString(i));
-			}
+			}}
 		    connection.close();
 		} catch (SQLException e) {
 			System.out.println("DB connection Not established.");
