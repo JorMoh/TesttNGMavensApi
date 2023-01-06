@@ -2,8 +2,8 @@
 <suite name="CraterRegression">
 	<test name="UI-DB_Regression">
 		<classes>
+		    <class name="craterTests.LoggingInTests"></class>
 			<class name="craterTests.Create_UpdateItemTests"></class>
-			<class name="craterTests.LoggingInTests"></class>
 			<class name="craterTests.UI_DBvalidation"></class>
 		</classes>
 	</test>

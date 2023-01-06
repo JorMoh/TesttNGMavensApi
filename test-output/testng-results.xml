@@ -1,37 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-04T14:57:06 EST" name="Default suite" finished-at="2023-01-04T14:57:57 EST" duration-ms="50542">
+  <suite started-at="2023-01-05T23:06:54 EST" name="CraterRegression" finished-at="2023-01-05T23:10:23 EST" duration-ms="208545">
     <groups>
     </groups>
-    <test started-at="2023-01-04T14:57:06 EST" name="Default test" finished-at="2023-01-04T14:57:57 EST" duration-ms="50542">
+    <test started-at="2023-01-05T23:06:54 EST" name="UI-DB_Regression" finished-at="2023-01-05T23:10:23 EST" duration-ms="208545">
       <class name="craterTests.Create_UpdateItemTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2023-01-04T14:57:06 EST" name="setup" finished-at="2023-01-04T14:57:21 EST" duration-ms="15416" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.Create_UpdateItemTests@1d9b7cce]" started-at="2023-01-05T23:08:27 EST" name="setup" finished-at="2023-01-05T23:08:42 EST" duration-ms="15461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyUpdating()[pri:1, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2023-01-04T14:57:21 EST" name="verifyUpdating" finished-at="2023-01-04T14:57:30 EST" duration-ms="8923" status="PASS">
+        <test-method signature="verifyUpdating()[pri:1, instance:craterTests.Create_UpdateItemTests@1d9b7cce]" started-at="2023-01-05T23:08:42 EST" name="verifyUpdating" finished-at="2023-01-05T23:08:51 EST" duration-ms="8833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUpdating -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2023-01-04T14:57:30 EST" name="afterTest" finished-at="2023-01-04T14:57:33 EST" duration-ms="2694" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.Create_UpdateItemTests@1d9b7cce]" started-at="2023-01-05T23:08:51 EST" name="afterTest" finished-at="2023-01-05T23:08:55 EST" duration-ms="3739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2023-01-04T14:57:33 EST" name="setup" finished-at="2023-01-04T14:57:47 EST" duration-ms="14248" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.Create_UpdateItemTests@1d9b7cce]" started-at="2023-01-05T23:08:55 EST" name="setup" finished-at="2023-01-05T23:09:10 EST" duration-ms="15502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCreating()[pri:2, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2023-01-04T14:57:47 EST" name="verifyCreating" finished-at="2023-01-04T14:57:53 EST" duration-ms="5597" status="PASS">
+        <test-method signature="verifyCreating()[pri:2, instance:craterTests.Create_UpdateItemTests@1d9b7cce]" started-at="2023-01-05T23:09:10 EST" name="verifyCreating" finished-at="2023-01-05T23:09:16 EST" duration-ms="5567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreating -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.Create_UpdateItemTests@1725dc0f]" started-at="2023-01-04T14:57:53 EST" name="afterTest" finished-at="2023-01-04T14:57:57 EST" duration-ms="3614" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.Create_UpdateItemTests@1d9b7cce]" started-at="2023-01-05T23:09:16 EST" name="afterTest" finished-at="2023-01-05T23:09:19 EST" duration-ms="3159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- craterTests.Create_UpdateItemTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="craterTests.LoggingInTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:06:54 EST" name="setup" finished-at="2023-01-05T23:07:07 EST" duration-ms="12852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:07:07 EST" name="invalidLogin" data-provider="userPassCombonation" finished-at="2023-01-05T23:07:08 EST" duration-ms="973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[helil@primetechschool.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sfdsgdh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:07:08 EST" name="cleanUp" finished-at="2023-01-05T23:07:14 EST" duration-ms="5844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:07:14 EST" name="setup" finished-at="2023-01-05T23:07:27 EST" duration-ms="12781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:07:27 EST" name="invalidLogin" data-provider="userPassCombonation" finished-at="2023-01-05T23:07:28 EST" duration-ms="1261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghd@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:07:28 EST" name="cleanUp" finished-at="2023-01-05T23:07:32 EST" duration-ms="4120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:07:32 EST" name="setup" finished-at="2023-01-05T23:07:45 EST" duration-ms="12859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:07:45 EST" name="invalidLogin" data-provider="userPassCombonation" finished-at="2023-01-05T23:07:45 EST" duration-ms="457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:07:45 EST" name="cleanUp" finished-at="2023-01-05T23:07:48 EST" duration-ms="2101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:07:48 EST" name="setup" finished-at="2023-01-05T23:08:00 EST" duration-ms="12235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:08:00 EST" name="invalidLogin" data-provider="userPassCombonation" finished-at="2023-01-05T23:08:00 EST" duration-ms="415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[helil@primetechschool.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:08:00 EST" name="cleanUp" finished-at="2023-01-05T23:08:04 EST" duration-ms="3669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:08:04 EST" name="setup" finished-at="2023-01-05T23:08:18 EST" duration-ms="14181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLogin()[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:08:18 EST" name="validLogin" finished-at="2023-01-05T23:08:21 EST" duration-ms="2623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:craterTests.LoggingInTests@41fbdac4]" started-at="2023-01-05T23:08:21 EST" name="cleanUp" finished-at="2023-01-05T23:08:27 EST" duration-ms="5907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- craterTests.LoggingInTests -->
+      <class name="craterTests.UI_DBvalidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.UI_DBvalidation@4d9e68d0]" started-at="2023-01-05T23:09:19 EST" name="setup" finished-at="2023-01-05T23:09:34 EST" duration-ms="14631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate()[pri:0, instance:craterTests.UI_DBvalidation@4d9e68d0]" started-at="2023-01-05T23:09:34 EST" name="validate" finished-at="2023-01-05T23:09:44 EST" duration-ms="10915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.UI_DBvalidation@4d9e68d0]" started-at="2023-01-05T23:09:44 EST" name="afterTest" finished-at="2023-01-05T23:09:47 EST" duration-ms="2693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:craterTests.UI_DBvalidation@4d9e68d0]" started-at="2023-01-05T23:09:47 EST" name="setup" finished-at="2023-01-05T23:10:05 EST" duration-ms="17396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate2()[pri:0, instance:craterTests.UI_DBvalidation@4d9e68d0]" started-at="2023-01-05T23:10:05 EST" name="validate2" finished-at="2023-01-05T23:10:19 EST" duration-ms="14900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate2 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:craterTests.UI_DBvalidation@4d9e68d0]" started-at="2023-01-05T23:10:19 EST" name="afterTest" finished-at="2023-01-05T23:10:23 EST" duration-ms="3406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- craterTests.UI_DBvalidation -->
+    </test> <!-- UI-DB_Regression -->
+  </suite> <!-- CraterRegression -->
 </testng-results>

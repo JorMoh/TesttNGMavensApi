@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="craterTests.Create_UpdateItemTests">
+      <class name="craterTests.UI_DBvalidation">
         <methods>
           <include name="setup"/>
-          <include name="verifyUpdating"/>
           <include name="afterTest"/>
+          <include name="validate"/>
         </methods>
-      </class> <!-- craterTests.Create_UpdateItemTests -->
+      </class> <!-- craterTests.UI_DBvalidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

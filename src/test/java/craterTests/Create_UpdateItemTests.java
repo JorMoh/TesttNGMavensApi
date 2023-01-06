@@ -63,10 +63,12 @@ public class Create_UpdateItemTests {
 	  items.priceField.sendKeys("3000");
 //	  And click Update Item button 
 	  items.updateItemBtn.click();
-	  items.nextButton.click();
+	  Driver.getDriver().findElement(By.xpath("//a[text()='10']")).click();
 //	  Then the Item price is updated to 30 dollars
 	  utils.waitUntilElementVisible(items.bookPrice);
 	  Assert.assertEquals(items.bookPrice.getText(), "$ 30.00");
+	  
+	  
   }
   
   

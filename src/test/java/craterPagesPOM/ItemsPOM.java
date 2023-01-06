@@ -65,7 +65,7 @@ public class ItemsPOM {
    @FindBy(xpath="//a[text()='Book']")
    public WebElement bookItem;
    
-   @FindBy(xpath="(//span[@style = 'font-family: sans-serif;'])[1]")
+   @FindBy(xpath="//span[text()='$ 30.00']")
    public WebElement bookPrice;
  
    @FindBy(xpath="(//a[@href='#'])[6]")

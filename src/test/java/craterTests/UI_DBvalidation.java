@@ -109,6 +109,8 @@ public class UI_DBvalidation {
 	  Driver.getDriver().navigate().refresh();
 //	  WebElement newItem = Driver.getDriver().findElement(By.xpath("//a[text()='"+addedItem+"']"));
 //	  Assert.assertFalse(newItem.isDisplayed());
+	  
+	
 
   }
   
